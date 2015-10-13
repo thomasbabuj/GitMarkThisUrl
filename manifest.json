@@ -1,16 +1,19 @@
 {
-	"manifest_version" : 2,
-
-	"name" : "Browser2Github",
-	"description" : "Bookmark site urls directly into your github wiki page",
-	"version" : "1.0",
-
-	"browser_action" : {
-		"default_icon" : "browser2Git.png",
-		"default_popup" : "popup.html"
+	"manifest_version"			:	2,
+	"name"						:	"BookmarkToGithub",
+	"version"					:	"1.0",
+	"icons"  					:	{
+		"128"	: "img/icons/icon-128.png",
+		"48"	: "img/icons/icon-48.png",
+		"38"	: "img/icons/icon-38.png",
+		"19"	: "img/icons/icon-19.png",
+		"16"	: "img/icons/icon-16.png"
 	},
-
-	"permissions" : [
-		"activeTab"
-	]
+	"browser_action"			:	{
+		"default_icon"	: {
+			"19"	:	"img/icons/icon-19.png",
+			"38"	:	"img/icons/icon-38.png"
+		},
+		"default_popup"	: "popup.html"
+	}
 }
